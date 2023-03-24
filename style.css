@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap');
+
+body{
+    background-color: gray;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    cursor: pointer;
+    line-height: 90px;
+    font-size: 60px;
+    transition: 0.5s;
+}
+
+.cell:hover{
+
+    transform: scale(1.08);
+}
+
+#cellDiv{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 312px;
+    margin: auto;
+}
+
+#gameDiv{
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Comic Neue", cursive;
+}
+
+#restartGame{
+
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: beige;
+    cursor:pointer;
+
+}
