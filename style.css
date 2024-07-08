@@ -1,23 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap');
 
 body{
-    background-color: gray;
+    background-color: white;
 }
 
 .cell{
     width: 100px;
     height: 100px;
-    border: 2px solid black;
+    border: 1px solid black;
     cursor: pointer;
     line-height: 90px;
     font-size: 60px;
     transition: 0.5s;
+    margin: 2px;
 }
 
-.cell:hover{
+/* .cell:hover{
 
     transform: scale(1.08);
-}
+} */
 
 #cellDiv{
     display: grid;
@@ -35,8 +36,8 @@ body{
 #restartGame{
 
     padding: 10px 10px;
-    border-radius: 5px;
-    background-color: beige;
+    /* border-radius: 5px; */
+    background-color: white;
     cursor:pointer;
 
 }
